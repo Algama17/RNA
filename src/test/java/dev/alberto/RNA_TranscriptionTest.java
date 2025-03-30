@@ -30,4 +30,11 @@ public class RNA_TranscriptionTest {
     RNA_Transcription transcriptor = new RNA_Transcription();
     assertEquals("A", transcriptor.transcribe("T"));
     }
+
+
+    @Test
+    void transcribir_A_DevuelveU(){
+        RNA_Transcription transcriptor = new RNA_Transcription();
+        assertEquals("U", transcriptor.transcribe("A"));
+    }
 }
