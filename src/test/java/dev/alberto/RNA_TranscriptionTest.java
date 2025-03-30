@@ -18,4 +18,10 @@ public class RNA_TranscriptionTest {
         RNA_Transcription transcriptor = new RNA_Transcription();
         assertEquals("C", transcriptor.transcribe("G"));
     }
+
+    @Test
+    void transcribir_C_DevuelveG(){
+        RNA_Transcription transcriptor = new RNA_Transcription();
+        assertEquals("G", transcriptor.transcribe("C"));
+    }
 }
