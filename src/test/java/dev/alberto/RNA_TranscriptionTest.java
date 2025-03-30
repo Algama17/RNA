@@ -11,4 +11,11 @@ public class RNA_TranscriptionTest {
        RNA_Transcription transcription = new RNA_Transcription();
        assertEquals("", transcription.transcribe("")); 
     }
+
+
+    @Test
+    void transcribe_G_DevuelveC(){
+        RNA_Transcription transcriptor = new RNA_Transcription();
+        assertEquals("C", transcriptor.transcribe("G"));
+    }
 }
