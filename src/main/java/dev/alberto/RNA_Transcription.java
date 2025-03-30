@@ -3,6 +3,9 @@ package dev.alberto;
 public class RNA_Transcription {
 
     public String transcribe(String dna){
-        return "";
+        if (dna.equals("G")) {
+            return "C";
+            
+        }return "";
     }
 }
