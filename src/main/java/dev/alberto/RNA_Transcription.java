@@ -12,6 +12,9 @@ public class RNA_Transcription {
         }else if (dna.equals("T")) {
             return "A";
         }
+        else if (dna.equals("A")) {
+            return "U";
+        }
 
         
         return "";
