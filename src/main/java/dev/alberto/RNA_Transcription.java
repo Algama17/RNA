@@ -6,6 +6,10 @@ public class RNA_Transcription {
         if (dna.equals("G")) {
             return "C";
             
-        }return "";
+        }else if (dna.equals("C")) {
+            return "G";
+        
+        }
+        return "";
     }
 }
